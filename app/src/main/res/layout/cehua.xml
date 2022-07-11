@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:clickable="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="2022年7月2日"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/date">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="15:59:11"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/times">
+
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="到期时间"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="刷新时间"
+            android:textSize="30dp"
+            android:background="#A9A9A9"
+            android:id="@+id/shuaxin"
+            android:layout_gravity="center">
+
+        </Button>
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="重置规则"
+            android:textSize="30dp"
+            android:background="#A9A9A9"
+            android:id="@+id/chongzhi"
+            android:layout_gravity="center">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

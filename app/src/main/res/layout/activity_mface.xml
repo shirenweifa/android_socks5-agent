@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".minterface"
+    android:id="@+id/dl_left">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F0FFFF"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cehua2"
+                android:id="@+id/ci"
+                android:layout_marginLeft="10dp">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#ADD8E6"/>
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:id="@+id/fragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/menu"
+            android:id="@+id/bottomNav"
+            />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:layout_gravity="start">
+        <include layout="@layout/cehua"/>
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

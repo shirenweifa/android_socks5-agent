@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17" />
+        <entry key="..\:/android Project/app/src/main/res/drawable/stybutton.xml" value="0.17" />
+        <entry key="..\:/android Project/app/src/main/res/drawable/styedit.xml" value="0.17" />
+        <entry key="..\:/android Project/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/android Project/app/src/main/res/layout/activity_mface.xml" value="0.264" />
+        <entry key="..\:/android Project/app/src/main/res/layout/tcpface.xml" value="0.22826086956521738" />
+        <entry key="..\:/android Project/app/src/main/res/layout/udpface.xml" value="0.22826086956521738" />
+        <entry key="..\:/android Project/app/src/main/res/menu/menu.xml" value="0.25364583333333335" />
+        <entry key="..\:/android Project/ucptcp/app/src/main/res/drawable/btn.xml" value="0.1235" />
+        <entry key="..\:/android Project/ucptcp/app/src/main/res/drawable/butt.xml" value="0.17" />
+        <entry key="..\:/android Project/ucptcp/app/src/main/res/drawable/ic_baseline_connect_without_contact_24.xml" value="0.17" />
+        <entry key="..\:/android Project/ucptcp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17" />
+        <entry key="..\:/android Project/ucptcp/app/src/main/res/drawable/styedit.xml" value="0.17" />
+        <entry key="..\:/android Project/ucptcp/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/android Project/ucptcp/app/src/main/res/layout/activity_mface.xml" value="0.264" />
+        <entry key="..\:/android Project/ucptcp/app/src/main/res/layout/cehua.xml" value="0.22826086956521738" />
+        <entry key="..\:/android Project/ucptcp/app/src/main/res/layout/master.xml" value="0.22826086956521738" />
+        <entry key="..\:/android Project/ucptcp/app/src/main/res/layout/tcpface.xml" value="0.22826086956521738" />
+        <entry key="..\:/android Project/ucptcp/app/src/main/res/layout/udpface.xml" value="0.22826086956521738" />
+        <entry key="..\:/android Project/ucptcp/app/src/main/res/menu/menu.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
